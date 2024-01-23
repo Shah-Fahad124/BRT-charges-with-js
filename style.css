@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(32, 164, 32);
+    background-image: url("zu-news-3.jpg");
+    background-size: cover;
+}
+
+
+main h1 {
+    display: flex;
+    font-weight: bolder;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    padding: 1rem;
+    background-image: url("form-bg.jpg");
+    background-size: cover;
+    background-position: top;
+}
+
+form input {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: rgba(65, 57, 57, 0.712);
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+}
+
+form input::placeholder {
+    color: rgb(231, 244, 216);
+    font-weight: bolder;
+}
+
+form input:focus {
+    outline: none;
+}
+
+form label {
+    margin-bottom: .5rem;
+    color: green;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+form :last-child {
+    background-color: rgb(33, 168, 33);
+    border: none;
+}
+
+form :last-child:hover {
+    background-color: rgb(34, 138, 34);
+}
